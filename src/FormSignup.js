@@ -13,9 +13,9 @@ const FormSignup = ({submitForm}) => {
           Log In to your account
         </h1>
         <div className="form-inputs">
-          <label htmlFor="username" className="form-table">
+          {/* <label htmlFor="username" className="form-table">
             username
-          </label>
+          </label> */}
           <input
             id="username"
             type="text"
@@ -28,9 +28,9 @@ const FormSignup = ({submitForm}) => {
           {errors.username && <p>{errors.username}</p>}
         </div>
         <div className="form-inputs">
-          <label htmlFor="email" className="form-table">
+          {/* <label htmlFor="email" className="form-table">
             email
-          </label>
+          </label> */}
           <input
             id="email"
             type="email"
@@ -43,9 +43,9 @@ const FormSignup = ({submitForm}) => {
           {errors.email && <p>{errors.email}</p>}
         </div>
         <div className="form-inputs">
-          <label htmlFor="password" className="form-table">
+          {/* <label htmlFor="password" className="form-table">
             password
-          </label>
+          </label> */}
           <input
             id="password"
             type="password"
@@ -61,7 +61,7 @@ const FormSignup = ({submitForm}) => {
           Continue
         </button>
         <span className="form-input-login">
-          Don't have an account?  Sign Up <a href="$">here</a>
+          Don't have an account? <a href="$"> Sign Up</a>
         </span>
       </form>
     </div>
